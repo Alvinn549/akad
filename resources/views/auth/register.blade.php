@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon icon-->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/logos/favicon.png') }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/logos/logo.png') }}" />
 
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
 
-    <title>Spike Bootstrap Admin</title>
+    <title>Sign Up</title>
 </head>
 
 <body>
@@ -102,7 +102,7 @@
     <!-- Import Js Files -->
     <script src="{{ asset('assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/libs/simplebar/dist/simplebar.min.js') }}"></script>
-    <script src="{{ asset('assets/js/theme/app.dark.init.js') }}"></script>
+    <script src="{{ asset('assets/js/theme/app.init.js') }}"></script>
     <script src="{{ asset('assets/js/theme/theme.js') }}"></script>
     <script src="{{ asset('assets/js/theme/app.min.js') }}"></script>
     <script src="{{ asset('assets/js/theme/feather.min.js') }}"></script>

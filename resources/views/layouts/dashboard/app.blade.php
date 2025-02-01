@@ -75,6 +75,7 @@
     <script src="{{ asset('assets/js/theme/app.init.js') }}"></script>
     <script src="{{ asset('assets/js/theme/theme.js') }}"></script>
     <script src="{{ asset('assets/js/theme/app.min.js') }}"></script>
+    <script src="{{ asset('assets/js/theme/sidebarmenu.js') }}"></script>
     <script src="{{ asset('assets/js/theme/feather.min.js') }}"></script>
 
     <!-- solar icons -->

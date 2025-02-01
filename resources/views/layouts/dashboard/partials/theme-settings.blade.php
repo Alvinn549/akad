@@ -52,7 +52,7 @@
             <input type="radio" class="btn-check" name="color-theme-layout" id="Aqua_Theme" autocomplete="off" />
             <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center"
                 onclick="handleColorTheme('Aqua_Theme')" for="Aqua_Theme" data-bs-toggle="tooltip"
-                data-bs-placement="top" data-bs-title="AQUA_THEME">
+                data-bs-placement="top" data-bs-title="Aqua_Theme">
                 <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-2">
                     <i class="ti ti-check text-white d-flex icon fs-5"></i>
                 </div>
@@ -61,37 +61,35 @@
             <input type="radio" class="btn-check" name="color-theme-layout" id="Purple_Theme" autocomplete="off" />
             <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center"
                 onclick="handleColorTheme('Purple_Theme')" for="Purple_Theme" data-bs-toggle="tooltip"
-                data-bs-placement="top" data-bs-title="PURPLE_THEME">
+                data-bs-placement="top" data-bs-title="Purple_Theme">
                 <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-3">
                     <i class="ti ti-check text-white d-flex icon fs-5"></i>
                 </div>
             </label>
 
-            <input type="radio" class="btn-check" name="color-theme-layout" id="green-theme-layout"
-                autocomplete="off" />
+            <input type="radio" class="btn-check" name="color-theme-layout" id="Green_Theme" autocomplete="off" />
             <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center"
-                onclick="handleColorTheme('Green_Theme')" for="green-theme-layout" data-bs-toggle="tooltip"
-                data-bs-placement="top" data-bs-title="GREEN_THEME">
+                onclick="handleColorTheme('Green_Theme')" for="Green_Theme" data-bs-toggle="tooltip"
+                data-bs-placement="top" data-bs-title="Green_Theme">
                 <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-4">
                     <i class="ti ti-check text-white d-flex icon fs-5"></i>
                 </div>
             </label>
 
-            <input type="radio" class="btn-check" name="color-theme-layout" id="cyan-theme-layout"
-                autocomplete="off" />
+            <input type="radio" class="btn-check" name="color-theme-layout" id="Cyan_Theme" autocomplete="off" />
             <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center"
-                onclick="handleColorTheme('Cyan_Theme')" for="cyan-theme-layout" data-bs-toggle="tooltip"
-                data-bs-placement="top" data-bs-title="CYAN_THEME">
+                onclick="handleColorTheme('Cyan_Theme')" for="Cyan_Theme" data-bs-toggle="tooltip"
+                data-bs-placement="top" data-bs-title="Cyan_Theme">
                 <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-5">
                     <i class="ti ti-check text-white d-flex icon fs-5"></i>
                 </div>
             </label>
 
-            <input type="radio" class="btn-check" name="color-theme-layout" id="orange-theme-layout"
+            <input type="radio" class="btn-check" name="color-theme-layout" id="Orange_Theme"
                 autocomplete="off" />
             <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center"
-                onclick="handleColorTheme('Orange_Theme')" for="orange-theme-layout" data-bs-toggle="tooltip"
-                data-bs-placement="top" data-bs-title="ORANGE_THEME">
+                onclick="handleColorTheme('Orange_Theme')" for="Orange_Theme" data-bs-toggle="tooltip"
+                data-bs-placement="top" data-bs-title="Orange_Theme">
                 <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-6">
                     <i class="ti ti-check text-white d-flex icon fs-5"></i>
                 </div>

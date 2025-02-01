@@ -91,9 +91,11 @@
     </div>
 
     <script>
-        function handleColorTheme(e) {
-            $("html").attr("data-color-theme", e);
-            $(e).prop("checked", !0);
+        function handleColorTheme(colorTheme) {
+            settings.ColorTheme = colorTheme;
+            localStorage.setItem('userSettings', JSON.stringify(settings));
+            document.documentElement.setAttribute("data-color-theme", colorTheme);
+            document.getElementById(colorTheme).checked = true;
         }
     </script>
 
@@ -103,7 +105,6 @@
     <script src="{{ asset('assets/js/theme/app.dark.init.js') }}"></script>
     <script src="{{ asset('assets/js/theme/theme.js') }}"></script>
     <script src="{{ asset('assets/js/theme/app.min.js') }}"></script>
-    <script src="{{ asset('assets/js/theme/sidebarmenu.js') }}"></script>
     <script src="{{ asset('assets/js/theme/feather.min.js') }}"></script>
 
     <!-- solar icons -->

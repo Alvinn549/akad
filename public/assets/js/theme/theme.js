@@ -23,13 +23,17 @@ document.addEventListener("DOMContentLoaded", function () {
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
   });
+
   // =================================
   // Hide preloader
   // =================================
-  var preloader = document.querySelector(".preloader");
-  if (preloader) {
-    preloader.style.display = "none";
-  }
+  window.addEventListener("load", function () {
+    var preloader = document.querySelector(".preloader");
+    if (preloader) {
+      preloader.style.display = "none";
+    }
+  });
+
   // =================================
   // Increment & Decrement
   // =================================
@@ -45,12 +49,13 @@ document.addEventListener("DOMContentLoaded", function () {
           qtyInput.value = isAdd
             ? ++currentVal
             : currentVal > 0
-            ? --currentVal
-            : currentVal;
+              ? --currentVal
+              : currentVal;
         }
       });
     });
   }
+
   // =================================
   // Fixed header
   // =================================
